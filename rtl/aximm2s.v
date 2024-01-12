@@ -2156,3 +2156,4 @@ module	aximm2s #(
 `endif
 // }}}
 endmodule
+`default_nettype wire
