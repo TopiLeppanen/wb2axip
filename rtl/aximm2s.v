@@ -188,6 +188,8 @@ module	aximm2s #(
 		// }}}
 	) (
 		// {{{
+		(* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S_AXI_ACLK CLK" *)
+		(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME S_AXI_ACLK, ASSOCIATED_RESET S_AXI_ARESETN, ASSOCIATED_BUSIF M_AXIS:S_AXIL:M_AXI" *)
 		input	wire					S_AXI_ACLK,
 		input	wire					S_AXI_ARESETN,
 		//
